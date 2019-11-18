@@ -1,4 +1,4 @@
-# Python
+# Python 拾遗
 
 ---
 
@@ -9,3 +9,9 @@ import getpass
 pwd = getpass.getpass()
 ```
 ---
+
+- **编译出.pyc**
+```
+import py_compile
+py_compile.compile('xxx/xxx.py')
+```
