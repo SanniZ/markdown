@@ -1,9 +1,10 @@
-# Python 拾遗
+# **Python 拾遗**  
 
 ---------------------------------------------
 
-- **密码输入**
-使用getpass模块实现密码输入.
+## **密码输入**  
+
+### *使用getpass模块实现密码输入*  
 ```
 import getpass
 pwd = getpass.getpass('Input your passwd:')
@@ -11,7 +12,7 @@ pwd = getpass.getpass('Input your passwd:')
 
 ---------------------------------------------
 
-- **编译出.pyc**
+## **编译出.pyc**  
 ```
 import py_compile
 py_compile.compile('xxx/xxx.py')
@@ -19,7 +20,7 @@ py_compile.compile('xxx/xxx.py')
 
 ---------------------------------------------
 
-- **python调用C语言编译出来的.so**
+## **python调用C语言编译出来的.so**  
 ```
 # main.py
 
@@ -71,7 +72,7 @@ make: gcc -o libkey.so func.c -share -fPIC -O -Wall
 
 ---------------------------------------------
 
-- **C语言调用python脚本**
+## **C语言调用python脚本**  
 ```
 # func.py
 
